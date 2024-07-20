@@ -2,9 +2,20 @@
     "name": "pishran/nova-voice-recorder",
     "description": "Laravel Nova Voice Recorder field.",
     "keywords": ["laravel", "nova", "voice", "recorder"],
+    "homepage": "https://github.com/pishran/nova-voice-recorder",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Farid Aghili",
+            "email": "farid@pishranit.ir",
+            "homepage": "https://www.faridaghili.ir",
+            "role": "Developer"
+        }
+    ],
     "require": {
-        "php": "^7.3|^8.0"
+        "php": "^8.0",
+        "laravel/framework": "^10.0|^11.0",
+        "laravel/nova": "^4.0"
     },
     "autoload": {
         "psr-4": {
@@ -20,5 +31,7 @@
     },
     "config": {
         "sort-packages": true
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }

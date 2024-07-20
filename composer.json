@@ -1,10 +1,7 @@
 {
     "name": "pishran/nova-voice-recorder",
-    "description": "A Laravel Nova field.",
-    "keywords": [
-        "laravel",
-        "nova"
-    ],
+    "description": "Laravel Nova Voice Recorder field.",
+    "keywords": ["laravel", "nova", "voice", "recorder"],
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0"
@@ -24,6 +21,6 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
